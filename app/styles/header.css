@@ -1,0 +1,22 @@
+header {
+    /* background: blue !important; */
+    padding: 20px 10%;
+}
+.gs-logo {
+    position: absolute;
+    /* color: white; */
+    font-weight: 600;
+    font-size: 24px;
+    top: 17px;
+}
+.gs-menu {
+    display: flex;
+    justify-content: end;
+}
+.gs-menu .gs-menu-items a {
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}

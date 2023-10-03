@@ -1,0 +1,10 @@
+.gs-hero
+{
+    height: 90vh;
+    padding: 15% 0;
+}
+.gs-hero h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 800;
+}
