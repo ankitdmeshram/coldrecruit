@@ -1,8 +1,27 @@
 .gs-jobs {
-    padding: 50px 10px;
+  padding: 50px 10px;
 }
 .gs-jobs h2 {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 800;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.gs-jobs p {
+  font-size: 18px;
+}
+.gs-listing {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+.gs-list {
+  padding: 20px 10px;
+  margin: 30px 0px;
+  background: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.gs-list:hover {
+  box-shadow: 3px 3px 12px 0px #d1cdcd91;
 }
