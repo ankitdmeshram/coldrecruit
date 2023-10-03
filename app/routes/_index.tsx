@@ -1,5 +1,7 @@
 import Header from "~/components/Header";
 import homeStyle from "../styles/home.css";
+import jobsStyle from "../styles/jobs.css";
+import { Jobs } from "~/components/Jobs";
 const _index = () => {
   return (
     <>
@@ -11,6 +13,10 @@ const _index = () => {
           <button className="gs-btn-primary gs-mt-2">Starts Now</button>
         </div>
       </div>
+
+      <Jobs />
+
+
     </>
   );
 };
@@ -22,4 +28,8 @@ export const links = () => [
     rel: "stylesheet",
     href: homeStyle,
   },
+  {
+    rel: "stylesheet",
+    href: jobsStyle
+  }
 ];

@@ -1,13 +1,13 @@
 header {
     /* background: blue !important; */
-    padding: 20px 10%;
+    padding: 25px 10%;
 }
 .gs-logo {
     position: absolute;
     /* color: white; */
     font-weight: 600;
     font-size: 24px;
-    top: 17px;
+    top: 20px;
 }
 .gs-menu {
     display: flex;
