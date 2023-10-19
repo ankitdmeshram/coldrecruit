@@ -14,11 +14,8 @@ const _index = () => {
           <button className="gs-btn-primary gs-mt-2">Starts Now</button>
         </div>
       </div>
-
-      <Jobs  type="jobs" />
-      <Jobs  type="internships" />
-
-
+      <Jobs type="jobs" />
+      <Jobs type="internships" />
     </>
   );
 };
@@ -32,8 +29,8 @@ export const links = () => [
   },
   {
     rel: "stylesheet",
-    href: jobsStyle
-  }
+    href: jobsStyle,
+  },
 ];
 
 export const meta: MetaFunction = () => {
@@ -42,6 +39,6 @@ export const meta: MetaFunction = () => {
     {
       property: "og:title",
       content: "Cold Recruit",
-    }
+    },
   ];
 };

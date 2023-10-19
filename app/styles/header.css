@@ -1,26 +1,14 @@
 header {
-    /* background: blue !important; */
-    padding: 25px 10%;
+  /* background: blue !important; */
+  padding: 25px 10%;
 }
-.gs-logo {
-    position: absolute;
-    /* color: white; */
-    font-weight: 600;
-    font-size: 24px;
-    top: 20px;
+
+.navbar-brand a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
 }
-.gs-logo a {
-    text-decoration: none;
-    color: black;
-}
-.gs-menu {
-    display: flex;
-    justify-content: end;
-}
-.gs-menu .gs-menu-items a {
-    padding: 20px;
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
+.nav-link a {
+  text-decoration: none;
+  color: black;
 }
