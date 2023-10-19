@@ -1,4 +1,4 @@
-export const Jobs = () => {
+export const Jobs = (type:any = null) => {
   return (
     <>
       <div className="gs-jobs">
