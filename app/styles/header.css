@@ -2,7 +2,9 @@ header {
   /* background: blue !important; */
   padding: 25px 10%;
 }
-
+.navbar {
+    padding: 15px;
+}
 .navbar-brand a {
   text-decoration: none;
   color: black;
