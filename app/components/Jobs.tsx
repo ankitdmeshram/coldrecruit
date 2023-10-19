@@ -1,8 +1,15 @@
-export const Jobs = (type:any = null) => {
+// import { useEffect } from "react";
+
+export const Jobs = (props:any) => {
+
+  // useEffect(() => {
+  //   console.log("type", type="job")
+  // }, [{type}])
+
   return (
     <>
       <div className="gs-jobs">
-        <h2>Latest Jobs</h2>
+        <h2>Latest {props?.type}</h2>
         <p className="gs-text-center">
           Here's the most recent job listed on the website.
         </p>

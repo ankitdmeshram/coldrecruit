@@ -14,7 +14,8 @@ const _index = () => {
         </div>
       </div>
 
-      <Jobs />
+      <Jobs  type="jobs" />
+      <Jobs  type="internships" />
 
 
     </>

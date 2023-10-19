@@ -5,7 +5,7 @@ const JobPage = () => {
   return (
     <>
       <Header />
-      <Jobs type="job" />
+      <Jobs type="jobs" />
     </>
   );
 };

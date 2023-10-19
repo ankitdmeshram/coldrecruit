@@ -5,7 +5,7 @@ const InternshipPage = () => {
     return (
       <>
       <Header />
-      <Jobs type="internship"/>
+      <Jobs type="internships"/>
       </>
     )
 }
